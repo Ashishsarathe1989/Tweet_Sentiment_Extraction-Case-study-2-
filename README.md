@@ -17,4 +17,12 @@ text : "Sooo SAD I will miss you here in San Diego!!!"
 sentiment : negative
 selected_text: "Sooo SAD
 
+## ML formulation of the business problem
+
+Given a text and the sentiment we have to predict the selected text (which is the a word or phrase of the text).
+Here is a tweet : " my boss is bullying me…"
+sentiment of the tweet is : "negative"
+Words defining that it is a negative tweet : "bullying me" (this is something we want to find in this case study).
+Answer such questions like what kind of problem is it (classification regression)? - This is a little bit difficult to answer but i would say it is a classification task but in a different way (because we have to classify the phrase of the text associated with sentiment).
+
 
