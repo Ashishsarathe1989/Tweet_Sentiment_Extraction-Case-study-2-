@@ -34,4 +34,10 @@ Finally i choose Roberta because its giving good jaccard score but in real world
 
 ![1_EMgwYCOaps6iSahu_l_Atg](https://user-images.githubusercontent.com/57909909/168904195-85d43768-1e1d-4ec9-8a9f-ac4b860ff931.png)
 
+# Contact : -
+LinkedIn: https://www.linkedin.com/in/ashish-sarathe-a4b67867/
+
+Email: ashish.sarathe@gmail.com 
+
+Blog:https://medium.com/@ashish.sarathe/cdb047a60c26
 
