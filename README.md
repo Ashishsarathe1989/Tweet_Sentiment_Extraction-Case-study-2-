@@ -20,9 +20,18 @@ selected_text: "Sooo SAD
 ## ML formulation of the business problem
 
 Given a text and the sentiment we have to predict the selected text (which is the a word or phrase of the text).
-Here is a tweet : " my boss is bullying me…"
-sentiment of the tweet is : "negative"
-Words defining that it is a negative tweet : "bullying me" (this is something we want to find in this case study).
+- Here is a tweet : " my boss is bullying me…"
+- sentiment of the tweet is : "negative"
+- Words defining that it is a negative tweet : "bullying me" (this is something we want to find in this case study).
 Answer such questions like what kind of problem is it (classification regression)? - This is a little bit difficult to answer but i would say it is a classification task but in a different way (because we have to classify the phrase of the text associated with sentiment).
+
+# Model i used 
+- LSTM
+- Bi-LSTM
+- Roberta
+Finally i choose Roberta because its giving good jaccard score but in real world we will consider application  latency and model shold not be more expensive in terrms of ram ,excution etc.
+# Roberta architecture
+
+![1_EMgwYCOaps6iSahu_l_Atg](https://user-images.githubusercontent.com/57909909/168904195-85d43768-1e1d-4ec9-8a9f-ac4b860ff931.png)
 
 
