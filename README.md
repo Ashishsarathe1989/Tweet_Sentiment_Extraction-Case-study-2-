@@ -29,7 +29,7 @@ Answer such questions like what kind of problem is it (classification regression
 - LSTM
 - Bi-LSTM
 - Roberta
-- Finally i choose Roberta because its giving good jaccard score but in real world we will consider application  latency and model shold not be more expensive in terrms of ram ,excution etc.
+- Finally i choose Roberta because its giving good jaccard score but in real world we will consider application low  latency and model should not be more expensive in terrms of ram ,excution etc.
 # Roberta architecture
 
 ![1_EMgwYCOaps6iSahu_l_Atg](https://user-images.githubusercontent.com/57909909/168904195-85d43768-1e1d-4ec9-8a9f-ac4b860ff931.png)
