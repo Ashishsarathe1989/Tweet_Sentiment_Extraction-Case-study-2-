@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px
+}
+
+
+body{
+	
+	background-position: center;
+	background-size:cover; 
+	font-family: lato;
+	background-color: #cccccc;
+}	
+
+.button {
+
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ font-size: 14px;
+ border: none;
+ width: 100%;
+ background: white;
+}
+
+
+
+.button3 {
+  background-color: #f44336;
+  color: white;
+}
+h1{
+	padding-bottom: 0%
+	color:green;
+	text-align: center;
+
+	font-size: 35px
+}
+.options {
+  padding: 10px;
+}
+
+select {
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  background: white;
+}
+</style>
+</head>
+<body>
+
+<h1 style="color:black;"><b>Tweet Sentiment Extraction</b></h1>	
+
+<div class="center">
+<form action="/predict" method="post"><br><br><br><br>
+
+<label for="text">Enter the Tweet</label><br>
+<input type="text" id="tweet" name="tweet" size="60"><br><br>
+
+
+<label for="sentiment">Sentiment</label>
+<div class="options">
+<select id="sentiment" name="sentiment">
+    <option value="positive">positive</option>
+    <option value="negative">negative</option>
+    <option value="neutral">neutral</option></select><br><br>
+</div>
+<input button class="button button3" type="submit" value="SUBMIT">
+
+<h3>Original Tweet: {{tweet}}</h3><br>
+<h3>Sentiment: {{sentiment}}</h3><br>
+<h3>Phrase that supports the sentiment: {{e}}</h3>
+
+
+</div>
+</form> 
+</body>
+</html>
