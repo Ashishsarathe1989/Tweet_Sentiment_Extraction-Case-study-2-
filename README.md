@@ -39,5 +39,5 @@ LinkedIn: https://www.linkedin.com/in/ashish-sarathe-a4b67867/
 
 Email: ashish.sarathe@gmail.com 
 
-Blog:https://medium.com/@ashish.sarathe/cdb047a60c26
+Blog:https://medium.com/@ashish.sarathe/tweet-sentiment-extraction-dc9b4660dd1b
 
